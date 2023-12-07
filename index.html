@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Triangle Calculator</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>		
+		<h1 class="judul">KALKULATOR SEGITIGA</h1>
+		<p class="deskripsi">Aplikasi web kalkulator untuk menghitung <strong>luas segitiga</strong> 
+			dan <strong>keliling segitiga</strong>.
+		</p>
+	</header>
+	<main class="content">
+		<nav class="menu">
+			<ul>
+				<li>
+					<a href="#area">Luas Segitiga</a>
+				</li>
+				<li>
+					<a href="#perimeter">Keliling Segitiga</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="main-frame">
+			<div id="area" class="frame-1">
+				<div class="frame-child-left">
+					<div class="frame-child-1">
+						<h1>Luas Segitiga</h1>
+						<label for="alas">Nilai Alas</label><br>
+						<input type="number" id="alas"><br>
+						<label for="tinggi">Nilai Tinggi</label><br>				
+						<input type="number" id="tinggi"><br>
+						<button class="tombol" id="hitung1">Hitung</button>
+						<div class="hasil" id="hasil1"></div>
+						<button class="tombol" id="reset1">Reset</button>
+					</div>				
+				</div>
+					<div class="frame-child-right">
+						<img  class="frame-child-1" src="segitiga.png" alt="segitiga">
+						<p>L = 1/2 * a * t</p>
+					</div>									
+			</div>
+			<div id="perimeter" class="frame-1">
+				<!-- <img src="https://i.pinimg.com/originals/04/cb/5d/04cb5d5312b7c44589e14cfb4cadcf6e.jpg"> -->
+				<h1>Keliling Segitiga</h1>
+				<hr>
+				<label for="sisi1">Nilai Sisi Pertama</label><br>
+                <input type="number" id="sisi1"><br>
+                <label for="sisi2">Nilai Sisi Kedua</label><br>				
+				<input type="number" id="sisi2"><br>
+                <label for="sisi3">Nilai Sisi Ketiga</label><br>				
+				<input type="number" id="sisi3"><br>
+                <button class="tombol" id="hitung2">Hitung</button>
+				<div class="hasil" id="hasil2"></div>
+				<button class="tombol" id="reset2">Reset</button>	
+			</div>
+		</div>
+	</main>
+</body>
+<script src="js/script.js"></script>
+</html>
