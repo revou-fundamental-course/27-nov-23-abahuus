@@ -58,45 +58,24 @@ html {
 	border-radius: 10px;
 	background: #ffffff;
 }
-img{
+img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    
-  }
-
-
-
-
-
-
-
-hr {
-	border: 0;
-	background: #dedede;
-	height: 1px;
+    width: 50%;    
 }
-
+.font {
+	font-size: 11pt;
+}
 header {
 	text-align: center;
 	color: black;
 	font-weight: bold;
 }
-
-header .judul {
-	font-size: 17pt;
-}
-
-header .deskripsi {
-	font-size: 11pt;
-}
-
 nav.menu ul li {
 	margin: 0;
 	float: center;
 }
-
 nav.menu ul a {
 	padding: 25px;
 	display: block;
@@ -107,132 +86,31 @@ nav.menu ul a {
 	transition: all 0.5s ease;
 	text-decoration: none;
 }
-
-/* .konten {
-	float: inherit;
-	margin: 0 auto 25px;
-	width: 101%;
-	border: 1px solid #dedede;
-	padding: 5%;
-	background: #ffffff;
-} */
-
-
-
-
-
-
-
-.konten img {
-	min-width: 650px;
-	margin: 0 0 25px -25px;
-	max-width: 650px;
-}
-
-.konten h1 {
-	padding: 0;
-	margin: 0 0 15px;
-	font-weight: bold;
-	color: #666666;
-}
-
-.konten label {
-	font-weight: bold;
-	color: #666666;
-}
-
-.hasil {
-	font-weight: bold;
-	color: black;
-}
-
-.tombol {
-	background-color: #339eae;
-	color: white;
-	display: inline-block;
-	padding: 10px 25px;
-	margin-top: 10px;
+.button {
+	background-color: #31a949;	
+	border: none;
+	border-radius: 10px;
+	margin-top: 20px;
 	font-size: 11pt;
 	font-weight: bold;
 	cursor: pointer;
 	text-align: center;
+	color: white;
+	display: inline-block;
+	padding: 10px 25px;	
 	text-decoration: none;
 	outline: none;
-	border: none;
 }
-
-.tombol:hover {
-	background-color: #90e0d5;
+.button:hover {
+	background-color: #75de4c;
 	color: black;
 }
-
-.tombol:active:active {
-	background-color: #339eae;
+.button:active:active {
+	background-color: #75de4c;
 	transform: translateY(4px);
 }
-
-/* .footer {
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	color: grey;
-	text-align: center;
+.result {
 	font-weight: bold;
-} */
-
-@media screen and (max-width: 960px) {
-	.header {
-		position: inherit;
-	}
-
-	.wrap {
-		width: 90%;
-		margin: 25px auto;
-	}
-
-	nav.menu ul {
-		width: 100%;
-	}
-
-	nav.menu ul {
-		float: inherit;
-	}
-
-	nav.menu ul li {
-		float: inherit;
-		margin: 0;
-	}
-
-	nav.menu ul a {
-		padding: 15px;
-		font-size: 16px;
-		border-top: 1px solid;
-		border-bottom: 1px solid;
-	}
-
-	.kalkulator {
-		width: 90%;
-	}
-
-
-	.konten img {
-		max-width: 110%;
-		margin: 0 0 25px -5%;
-		min-width: 110%;
-	}
-}
-
-@media screen and (max-width: 460px) {
-	nav.menu ul a {
-		padding: 15px;
-		font-size: 14px;
-	}
-
-	.konten {
-		margin: 25px auto;
-	}
-
-	.konten img {
-		margin: -5% 0 25px -5%;
-	}
+	color: black;
+	margin-top: 20px;
 }
